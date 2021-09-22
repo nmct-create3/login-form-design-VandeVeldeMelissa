@@ -515,6 +515,12 @@ input {
     box-shadow: 0 0 0 3px #3385ff4d; 
 }
 
+.c-input:hover {
+    border-color: #3385FF;
+    box-shadow: h-offset v-offset blur spread color;
+    box-shadow: 0 0 0 3px #3385ff4d; 
+}
+
 /*
     Component: Label
     ---
@@ -538,19 +544,33 @@ input {
 */
 
 .c-button {
-
+    font-weight: 600;
+    background-color: #3385FF;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2E77E6;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px;
+    width: 100%;
+    outline: none;
+    font-family: inherit;
 }
 
 .c-button:hover {
-
+    background-color: #4F95FF;
 }
 
 .c-button:focus {
-
+    background-color: #3385FF;
+    box-shadow: h-offset v-offset blur spread color;
+    box-shadow: 0 0 0 3px #3385ff4d; 
 }
 
 .c-button:active {
-
+    background-color: #2E77E6;
 }
 
 .c-button--block {
