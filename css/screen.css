@@ -492,7 +492,20 @@ input {
 */
 
 .c-input {
-
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E2E3E7;
+    /* of border: 1px solid #E2E3E7; */
+    border-radius: 3px;
+    font-family: inherit;
+    color: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
 }
 
 .c-input:focus {
