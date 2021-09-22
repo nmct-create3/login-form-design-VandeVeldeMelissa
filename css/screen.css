@@ -180,6 +180,11 @@ a:focus {
     color: #1261d8;
 }
 
+label,
+input {
+    display: block;
+}
+
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -452,15 +457,15 @@ a:focus {
 }
 
 .c-logo__path--1 {
-    color: #20223A;
+    fill: #20223A;
 }
 
 .c-logo__path--1 {
-    color: #3385FF;
+    fill: #3385FF;
 }
 
 .c-logo__path--1 {
-    color: #1B4186;
+    fill: #1B4186;
 }
 
 /*
@@ -474,6 +479,11 @@ a:focus {
     ---
     Everything form related here
 */
+
+.c-form-field--option {
+    display: flex;
+    align-items: center;
+}
 
 /*
     Component: Input
