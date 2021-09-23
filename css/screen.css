@@ -201,10 +201,18 @@ input {
 }
 
 .o-row--login {
-    /* stuff here to align the card */
+    height: 100vh; /* 1vh = 1% of browser screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* size modifiers */
+
+.o-row {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .o-row--lg {
     padding-top: 48px;
