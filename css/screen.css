@@ -558,7 +558,14 @@ input {
 */
 
 .c-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    color: #606274;
+}
 
+.c-label--option {
+    margin-left: 8px;
 }
 
 /* If a input is focused within the form-field class change te color of the label */
