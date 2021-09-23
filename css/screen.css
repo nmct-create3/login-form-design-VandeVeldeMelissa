@@ -474,6 +474,36 @@ input {
     Card with box shadow
 */
 
+.c-card {
+    background-color: white;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.c-card__body {
+    padding: 48px;
+    color: #4B4C60;
+}
+
+.c-card__title {
+    display: flex;
+    justify-content: center;
+    margin: 48px 48px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.c-card__footer {
+    border-top: 1px solid #E2E3E7;
+    margin: 0px;
+    padding: 24px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+    color: #757787;
+}
+
 /*
     Component: Forms
     ---
